@@ -1,0 +1,102 @@
+2025-12-15 22:23:36,227 - INFO - Total rows in training data : (120000, 16)
+2025-12-15 22:23:36,227 - INFO - Total rows in testing data : (30000, 16)
+2025-12-15 22:23:36,227 - INFO - Before technique X_train : Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'MonthlyIncome', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'NumberOfDependents'],
+      dtype='object')
+2025-12-15 22:23:36,227 - INFO - Before technique X_test : Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'MonthlyIncome', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'NumberOfDependents'],
+      dtype='object')
+2025-12-15 22:23:36,243 - INFO - Before technique X_train : NPA Status                                  0
+RevolvingUtilizationOfUnsecuredLines        0
+age                                         0
+Gender                                      0
+Region                                      0
+MonthlyIncome                           23767
+Rented_OwnHouse                             0
+Occupation                                  0
+Education                                   0
+NumberOfTime30-59DaysPastDueNotWorse        0
+DebtRatio                                   0
+NumberOfOpenCreditLinesAndLoans             0
+NumberOfTimes90DaysLate                     0
+NumberRealEstateLoansOrLines                0
+NumberOfTime60-89DaysPastDueNotWorse        0
+NumberOfDependents                       3165
+dtype: int64
+2025-12-15 22:23:36,243 - INFO - Before technique X_test : NPA Status                                 0
+RevolvingUtilizationOfUnsecuredLines       0
+age                                        0
+Gender                                     0
+Region                                     0
+MonthlyIncome                           5964
+Rented_OwnHouse                            0
+Occupation                                 0
+Education                                  0
+NumberOfTime30-59DaysPastDueNotWorse       0
+DebtRatio                                  0
+NumberOfOpenCreditLinesAndLoans            0
+NumberOfTimes90DaysLate                    0
+NumberRealEstateLoansOrLines               0
+NumberOfTime60-89DaysPastDueNotWorse       0
+NumberOfDependents                       759
+dtype: int64
+2025-12-15 22:23:36,263 - INFO - Train Column name : MonthlyIncome
+2025-12-15 22:23:36,274 - INFO - Train Column name : NumberOfDependents
+2025-12-15 22:23:36,290 - INFO - After technique X_train : Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_replaced', 'NumberOfDependents_replaced'],
+      dtype='object')
+2025-12-15 22:23:36,290 - INFO - After technique X_test : Index(['NPA Status', 'RevolvingUtilizationOfUnsecuredLines', 'age', 'Gender',
+       'Region', 'Rented_OwnHouse', 'Occupation', 'Education',
+       'NumberOfTime30-59DaysPastDueNotWorse', 'DebtRatio',
+       'NumberOfOpenCreditLinesAndLoans', 'NumberOfTimes90DaysLate',
+       'NumberRealEstateLoansOrLines', 'NumberOfTime60-89DaysPastDueNotWorse',
+       'MonthlyIncome_replaced', 'NumberOfDependents_replaced'],
+      dtype='object')
+2025-12-15 22:23:36,306 - INFO - After technique X_train : NPA Status                              0
+RevolvingUtilizationOfUnsecuredLines    0
+age                                     0
+Gender                                  0
+Region                                  0
+Rented_OwnHouse                         0
+Occupation                              0
+Education                               0
+NumberOfTime30-59DaysPastDueNotWorse    0
+DebtRatio                               0
+NumberOfOpenCreditLinesAndLoans         0
+NumberOfTimes90DaysLate                 0
+NumberRealEstateLoansOrLines            0
+NumberOfTime60-89DaysPastDueNotWorse    0
+MonthlyIncome_replaced                  0
+NumberOfDependents_replaced             0
+dtype: int64
+2025-12-15 22:23:36,306 - INFO - After technique X_test : NPA Status                              0
+RevolvingUtilizationOfUnsecuredLines    0
+age                                     0
+Gender                                  0
+Region                                  0
+Rented_OwnHouse                         0
+Occupation                              0
+Education                               0
+NumberOfTime30-59DaysPastDueNotWorse    0
+DebtRatio                               0
+NumberOfOpenCreditLinesAndLoans         0
+NumberOfTimes90DaysLate                 0
+NumberRealEstateLoansOrLines            0
+NumberOfTime60-89DaysPastDueNotWorse    0
+MonthlyIncome_replaced                  0
+NumberOfDependents_replaced             0
+dtype: int64
+2025-12-15 22:23:36,306 - INFO - Total rows in training data : (120000, 16)
+2025-12-15 22:23:36,306 - INFO - Total rows in testing data : (30000, 16)
