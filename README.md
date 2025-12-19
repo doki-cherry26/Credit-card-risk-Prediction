@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     
-</head> 
+</head>
 <body>
 
-    <h1>💳 Credit Card Fraud Prediction Project</h1>
+    <h1>💳 Credit Card Risk Prediction Project</h1>
 
     <div class="section">
         <h2>📌 Project Overview</h2>
@@ -113,9 +113,9 @@
     <div class="section">
         <h2>✅ Conclusion</h2>
         <p>
-            This project  complete end-to-end machine learning pipeline,
+            This project demonstrates a complete end-to-end machine learning pipeline,
             from data preprocessing to model deployment. Logistic Regression proved to be
-            the most effective model for credit card risk prediction based on ROC and AUC analysis.
+            the most effective model for credit card fraud prediction based on ROC and AUC analysis.
         </p>
     </div>
 
